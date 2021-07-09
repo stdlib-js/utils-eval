@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-eval",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Alias for eval global.",
   "license": "Apache-2.0",
   "author": {
