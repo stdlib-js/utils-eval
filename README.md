@@ -24,30 +24,14 @@ limitations under the License.
 
 > Alias for [`eval`][mdn-eval] global.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/utils-eval
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var evil = require( '@stdlib/utils-eval' );
+import evil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-eval@esm/index.mjs';
 ```
 
 #### evil( str )
@@ -79,8 +63,13 @@ var v = evil( '5*4*3*2*1' );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var evil = require( '@stdlib/utils-eval' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import evil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-eval@esm/index.mjs';
 
 var ctors;
 var fcn;
@@ -123,65 +112,17 @@ for ( i = 0; i < ctors.length; i++ ) {
     fcn = evil( compile( ctors[i] ) );
     console.log( fcn.toString() );
 }
+
+</script>
+</body>
+</html>
 ```
 
 </section>
 
 <!-- /.examples -->
 
-* * *
 
-<section class="cli">
-
-## CLI
-
-<section class="installation">
-
-## Installation
-
-To use the module as a general utility, install the module globally
-
-```bash
-npm install -g @stdlib/utils-eval
-```
-
-</section>
-
-<!-- CLI usage documentation. -->
-
-<section class="usage">
-
-### Usage
-
-```text
-Usage: js-eval [options] <code>
-
-Options:
-
-  -h,    --help                Print this message.
-  -V,    --version             Print the package version.
-```
-
-</section>
-
-<!-- /.usage -->
-
-<section class="examples">
-
-### Examples
-
-```bash
-$ js-eval '5*4*3*2*1'
-120
-```
-
-</section>
-
-<!-- /.examples -->
-
-</section>
-
-<!-- /.cli -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -200,7 +141,7 @@ $ js-eval '5*4*3*2*1'
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
