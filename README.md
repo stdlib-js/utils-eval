@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import evil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-eval@esm/index.mjs';
+import evil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-eval@v0.1.0-esm/index.mjs';
 ```
 
 #### evil( str )
@@ -80,7 +80,7 @@ var v = evil( '5*4*3*2*1' );
 <body>
 <script type="module">
 
-import evil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-eval@esm/index.mjs';
+import evil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-eval@v0.1.0-esm/index.mjs';
 
 var ctors;
 var fcn;
