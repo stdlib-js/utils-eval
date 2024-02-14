@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import evil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-eval@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-eval/tags). For example,
+
+```javascript
 import evil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-eval@v0.2.0-deno/mod.js';
 ```
 
@@ -75,7 +80,7 @@ var v = evil( '5*4*3*2*1' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import evil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-eval@v0.2.0-deno/mod.js';
+import evil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-eval@deno/mod.js';
 
 var ctors;
 var fcn;
