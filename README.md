@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import evil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-eval@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-eval/tags). For example,
+
+```javascript
 import evil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-eval@v0.2.1-esm/index.mjs';
 ```
 
@@ -80,7 +85,7 @@ var v = evil( '5*4*3*2*1' );
 <body>
 <script type="module">
 
-import evil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-eval@v0.2.1-esm/index.mjs';
+import evil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-eval@esm/index.mjs';
 
 var ctors;
 var fcn;
