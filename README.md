@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import evil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-eval@deno/mod.js';
+import evil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-eval@v0.2.2-deno/mod.js';
 ```
 
 #### evil( str )
@@ -75,7 +75,7 @@ var v = evil( '5*4*3*2*1' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import evil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-eval@deno/mod.js';
+import evil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-eval@v0.2.2-deno/mod.js';
 
 var ctors;
 var fcn;
