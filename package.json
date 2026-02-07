@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-eval",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Alias for eval global.",
   "license": "Apache-2.0",
   "author": {
@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "@stdlib/cli-ctor": "^0.2.2",
-    "@stdlib/fs-read-file": "^0.2.2"
+    "@stdlib/fs-read-file": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/assert-has-class-support": "^0.2.2",
